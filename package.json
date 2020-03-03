@@ -1,0 +1,24 @@
+{
+  "name": "babelpluginstudy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "babel src/main.js -o dist/main.js && node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.6",
+    "@babel/generator": "^7.8.6",
+    "@babel/parser": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/traverse": "^7.8.6"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3",
+    "@babel/types": "^7.8.6"
+  }
+}
